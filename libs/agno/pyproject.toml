@@ -159,6 +159,7 @@ gmail = ["google-api-python-client", "google-auth-httplib2", "google-auth-oauthl
 google-bigquery = ["google-cloud-bigquery"]
 google-slides = ["google-api-python-client", "google-auth-httplib2", "google-auth-oauthlib"]
 googlemaps = ["googlemaps", "google-maps-places"]
+maritime = []  # uses httpx, already a core dependency
 matplotlib = ["matplotlib"]
 mem0 = ["mem0ai"]
 memori = ["memori>=3.0.5"]
@@ -326,6 +327,7 @@ tools = [
   "agno[google-bigquery]",
   "agno[google-slides]",
   "agno[googlemaps]",
+  "agno[maritime]",
   "agno[matplotlib]",
   "agno[mcp]",
   "agno[mem0]",
